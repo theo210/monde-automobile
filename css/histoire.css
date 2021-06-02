@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+#banner1 {
+	display: block;
+	background-color: #000000;
+	height: 50px;
+	width: 100%;
+}
+
+#banner1 p {
+	position: relative;
+	font-weight: bold;
+	font-size: 30px;
+	top: 7px;
+	margin-right: 0;
+	text-align: center;
+	color: #FFE436
+}
+
+#logolambo {
+	float: left;
+}
+
+#menu {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	background-color: #FFE436;
+}
+
+#menu ul {
+	float: left;
+	left: 50%;
+	position: relative;
+	padding-top: 15px;
+	margin-left: -230px;
+}
+
+#menu ul li {
+	margin-left: 20px;
+	float: left;
+	list-style-type: none;
+	position: relative;
+	left: -50%;
+}
+
+#menu ul li a {
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	background-color: #000000;
+	height: 30px;
+	width: 100px;
+	color: #FFE436;
+	text-decoration: none;
+}
+
+#recherche {
+	float: right;
+	padding-top: 40px;
+	margin-right: 20px;
+}
+
+#menu ul li a:hover {
+	border-style: inset;
+	border-width: 2px;
+	border-color: #000000;
+	color: #000000;
+	background-color: #FFE436;
+}
+
+#banner2 {
+	display: block;
+	background-color: #000000;
+	height: 50px;
+	width: 100%;
+}
+
+#contenuprincipal {
+	display: block;
+	width: 90%;
+	margin: auto;
+	font-size: large;
+	text-align: justify;
+}
+
+#imgtxt {
+	position: relative;
+	margin-left: 200px;
+}
+
+figcaption {
+	background: #FFE436;
+	color: #000000;
+	font: italic smaller sans-serif;
+	font-weight: bold;
+	padding: 3px;
+	margin-right: 215px;
+	text-align: center;
+}
